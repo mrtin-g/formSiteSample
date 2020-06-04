@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+    <style>
+        html {
+            background-color: rgb(140, 140, 140);
+        }
+
+        .content {
+            margin-top: 6rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header {
+            height: 5rem;
+            width: 100%;
+            background-color: rgb(100, 100, 100);
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            box-shadow: 0px 8px 5px 0px #414141;
+            border-bottom: rgb(100, 100, 100) 2px solid;
+        }
+
+        .iframe-wrapper {
+            background-color: rgb(20, 20, 20);
+            border-radius: 10px;
+            box-shadow: 6px 9px 5px 0px #414141;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="header">
+            <h1 class="headline">Sample Forms Below</h1>
+        </div>
+        <div class="iframe-wrapper">
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLScLJKO--U-M5tpWvcqOpc02Kwoo9nAbh7vzt4_qfdLsqAf1AQ/viewform?embedded=true"
+                width="640" height="820" frameborder="0" marginheight="0" marginwidth="0"
+                class="form-frame">Loading…</iframe>
+        </div>
+    </div>
+</body>
+
+</html>
